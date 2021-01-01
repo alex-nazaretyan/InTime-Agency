@@ -1,4 +1,6 @@
-@media all and (max-width: 500px){
+/*MEDIAS FOR HUAWEI P30 PRO */
+/*Resolution 1080 x 2340 -> viewport 360 x 780*/
+@media all and (min-width: 360px){
     body{
         background-color: black;
     }
