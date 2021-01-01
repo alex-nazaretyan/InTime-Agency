@@ -1,6 +1,9 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" );
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 body {
     margin: 0;
+    font-family: 'Crimson Text', serif;
+    ;
 }
 
 header nav {
@@ -8,7 +11,8 @@ header nav {
     justify-content: space-around;
     align-items: baseline;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -21,18 +25,17 @@ header nav ul {
 header nav ul li {
     padding: 0 15px;
 }
-header nav ul li:hover{
+
+header nav ul li:hover {
     border-bottom: 3px solid #34B1C4;
     padding: 0;
     margin: 0 15px;
-
-
 }
+
 .header-logo p {
     font-size: 30px;
     margin-top: 10px;
     text-decoration: none;
-   
 }
 
 .header-logo span {
@@ -56,10 +59,9 @@ header nav ul li:hover{
     left: 330px;
     z-index: 1;
     width: 300px;
-    height: 110px;
+    height: 130px;
     padding: 0 30px 20px 15px;
     font-size: 20px;
-    
 }
 
 .background-picture-wrapper p {
@@ -87,15 +89,17 @@ header nav ul li:hover{
     display: flex;
     justify-content: center;
 }
-.wrapper-content h2{
+
+.wrapper-content h2 {
     margin-bottom: 0;
 }
-.underline-h2{
+
+.underline-h2 {
     border-bottom: 3px solid #34B1C4;
     width: 8%;
     margin: 0 auto;
-    
 }
+
 .wrapper-content button {
     border: none;
     border-radius: 15px;
@@ -115,12 +119,14 @@ header nav ul li:hover{
     font-weight: lighter;
     margin-bottom: 0;
 }
-.underline-h1{
+
+.underline-h1 {
     border-bottom: 3px solid #454545;
     width: 5%;
     margin: 0 auto;
 }
-.service-content{
+
+.service-content {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -182,7 +188,7 @@ header nav ul li:hover{
 }
 
 .third-pic-content :first-child {
-    margin-top:0;
+    margin-top: 0;
     padding-top: 15px;
     font-weight: lighter;
     font-size: 20px;
@@ -200,7 +206,6 @@ header nav ul li:hover{
     background-color: #454545;
     padding: 10px 20px;
     margin-bottom: 30px;
-  
 }
 
 .first-service-picture {
@@ -251,7 +256,6 @@ header nav ul li:hover{
     border-bottom: 2px solid white;
     width: 105px;
     margin: 0 auto;
-
 }
 
 .above-footer-content p {
@@ -282,37 +286,44 @@ form {
     font-size: 17px;
     cursor: pointer;
 }
-.footer-ul-items{
+
+.footer-ul-items {
     background-color: #2F3539;
     padding-top: 0;
     color: white;
     display: flex;
     padding-top: 20px;
     justify-content: space-around;
-    
 }
+
 .footer-ul-items ul {
-   list-style:none;
+    list-style: none;
 }
-.footer-ul-items ul li{
+
+.footer-ul-items ul li {
     padding: 8px;
 }
-.footer-ul-items ul li:first-child{
+
+.footer-ul-items ul li:first-child {
     font-weight: bold;
 }
+
 .fab {
     padding-right: 15px;
 }
-.last-footer{
+
+.last-footer {
     background-color: #262B2F;
     text-align: center;
     color: white;
 }
-.last-footer p{
+
+.last-footer p {
     margin-top: 0;
     padding: 20px;
     margin-bottom: 0;
 }
-.footer-span{
+
+.footer-span {
     color: #028A9C;
 }
