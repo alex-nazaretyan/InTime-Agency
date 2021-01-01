@@ -6,7 +6,11 @@ body {
 header nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 header nav ul {
@@ -17,10 +21,18 @@ header nav ul {
 header nav ul li {
     padding: 0 15px;
 }
+header nav ul li:hover{
+    border-bottom: 3px solid #34B1C4;
+    padding: 0;
+    margin: 0 15px;
 
+
+}
 .header-logo p {
     font-size: 30px;
     margin-top: 10px;
+    text-decoration: none;
+   
 }
 
 .header-logo span {
@@ -44,13 +56,17 @@ header nav ul li {
     left: 330px;
     z-index: 1;
     width: 300px;
-    height: 100px;
+    height: 110px;
     padding: 0 30px 20px 15px;
     font-size: 20px;
+    
 }
 
 .background-picture-wrapper p {
     color: white;
+    font-size: 29px;
+    margin-top: 8px;
+    margin-bottom: 15px;
 }
 
 .background-picture-wrapper button {
@@ -58,7 +74,7 @@ header nav ul li {
     background-color: #008CBA;
     border: none;
     border-radius: 10px;
-    padding: 5px 17px;
+    padding: 8px 32px;
     cursor: pointer;
 }
 
@@ -71,7 +87,15 @@ header nav ul li {
     display: flex;
     justify-content: center;
 }
-
+.wrapper-content h2{
+    margin-bottom: 0;
+}
+.underline-h2{
+    border-bottom: 3px solid #34B1C4;
+    width: 8%;
+    margin: 0 auto;
+    
+}
 .wrapper-content button {
     border: none;
     border-radius: 15px;
@@ -88,8 +112,14 @@ header nav ul li {
 .service-picture-wrapper h1 {
     text-align: center;
     padding-top: 30px;
+    font-weight: lighter;
+    margin-bottom: 0;
 }
-
+.underline-h1{
+    border-bottom: 3px solid #454545;
+    width: 5%;
+    margin: 0 auto;
+}
 .service-content{
     display: flex;
     justify-content: center;
@@ -102,7 +132,8 @@ header nav ul li {
 
 .first-pic-content :first-child {
     margin-top: 0;
-    font-weight: bold;
+    padding-top: 10px;
+    font-weight: lighter;
     font-size: 20px;
     text-align: center;
 }
@@ -116,7 +147,8 @@ header nav ul li {
     border-radius: 5px;
     color: white;
     background-color: #454545;
-    padding: 5px 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
 }
 
 .second-pic-content {
@@ -125,7 +157,9 @@ header nav ul li {
 
 .second-pic-content :first-child {
     margin-top: 0;
-    font-weight: bold;
+    padding-top: 10px;
+    padding-top: 15px;
+    font-weight: lighter;
     font-size: 20px;
     text-align: center;
 }
@@ -139,7 +173,8 @@ header nav ul li {
     border-radius: 5px;
     color: white;
     background-color: #454545;
-    padding: 5px 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
 }
 
 .third-pic-content {
@@ -147,8 +182,9 @@ header nav ul li {
 }
 
 .third-pic-content :first-child {
-    margin-top: 0;
-    font-weight: bold;
+    margin-top:0;
+    padding-top: 15px;
+    font-weight: lighter;
     font-size: 20px;
     text-align: center;
 }
@@ -162,7 +198,9 @@ header nav ul li {
     border-radius: 5px;
     color: white;
     background-color: #454545;
-    padding: 5px 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  
 }
 
 .first-service-picture {
@@ -182,6 +220,8 @@ header nav ul li {
 
 .service-background-img img {
     width: 303px;
+    position: relative;
+    top: 3px;
 }
 
 .picture-content button {
@@ -202,15 +242,16 @@ header nav ul li {
     text-align: center;
     color: white;
     margin-top: 0;
+    margin-bottom: 2px;
     padding-top: 20px;
+    font-size: 27px;
 }
 
-.border-bottom {
+.second-h1-underline {
     border-bottom: 2px solid white;
-    position: relative;
-    width: 50px;
+    width: 105px;
     margin: 0 auto;
-    bottom: 10px;
+
 }
 
 .above-footer-content p {
@@ -227,7 +268,7 @@ form {
     background-color: #545A5E;
     border: none;
     height: 40px;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 .input-button {
