@@ -3,6 +3,7 @@
 /*Resolution 1080 x 2340 -> viewport 360 x 780*/
 
 /*Header section media query*/
+
 @media all and (min-width:360px) and (max-width: 780px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
     .drop-down-menu-button {
@@ -12,87 +13,89 @@
         width: 350px;
         text-align: right;
     }
-    .drop-down-menu-button i{
+    .drop-down-menu-button i {
         font-size: 50px;
+        position: relative;
+        left: 150px;
     }
     .header-logo {
         padding-left: 30px;
     }
-    .header-logo p{
+    .header-logo p {
         font-size: 50px;
     }
     header {
         display: flex;
         justify-content: space-between;
-       
     }
-    nav{
+    nav {
         height: 380px;
     }
     header nav ul {
         display: none;
     }
     nav:hover ul {
-        display: block;
-        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        top: 40px;
+        top: 64px;
         background-color: gray;
         border-radius: 5px;
-        right: 114px;
+        right: 557px;
         padding: 0;
-        width: 140px;
+        width: 740px;
     }
     nav:hover ul li {
-        text-align: center;
-        border-bottom: 2px solid black;
+        text-align: left;
+        border-bottom: 1px solid black;
         padding: 6px;
         font-size: 25px;
         font-weight: bold;
+        padding-left: 30px;
     }
 }
+
 /* Main section media query */
 
 @media all and (min-width:360px) and (max-width: 780px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
-
-    .background-picture-wrapper{
-    color: white;
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 380px;
-    left: 330px;
-    z-index: 1;
-    width: 300px;
-    height: 130px;
-    padding: 0 30px 20px 15px;
-    font-size: 20px;
+    .background-picture-wrapper {
+        color: white;
+        background-color: black;
+        opacity: 0.7;
+        position: absolute;
+        top: 380px;
+        left: 390px;
+        z-index: 1;
+        width: 300px;
+        height: 130px;
+        padding: 0 30px 20px 15px;
+        font-size: 20px;
     }
-    .background-img img{
-        width: 675px;
+    .background-img img {
+        width: 741px;
     }
-    .company-info{
-        width: 675px;
+    .company-info {
+        width: 741px;
         font-size: 30px;
     }
-    .underline-h2{
+    .underline-h2 {
         width: 30%;
         margin: 0 auto;
         border-bottom: 5px solid #34B1C4;
     }
-    button{
+    button {
         font-size: 25px;
     }
-    .service-picture-wrapper{
+    .service-picture-wrapper {
         width: 675px;
     }
-    .service-picture-wrapper h1{
+    .service-picture-wrapper h1 {
         font-size: 40px;
     }
-    .underline-h1{
+    .underline-h1 {
         border-bottom: 4px solid #454545;
-    width: 14%;
-    margin: 0 auto;
+        width: 14%;
+        margin: 0 auto;
     }
 }
