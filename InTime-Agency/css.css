@@ -31,6 +31,10 @@ header nav ul li:hover {
     padding: 0;
     margin: 0 15px;
 }
+.menu-responsive{
+    display: none;
+}
+
 
 .header-logo p {
     font-size: 30px;

@@ -1,7 +1,41 @@
 /*MEDIAS FOR HUAWEI P30 PRO */
+
 /*Resolution 1080 x 2340 -> viewport 360 x 780*/
-@media all and (min-width: 360px){
-    body{
-        background-color: black;
+
+@media all and (max-width: 600px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+    .menu-responsive {
+        display: block;
+        font-size: 35px;
+        padding-right: 30px;
+        width: 350px;
+        text-align: right;
+    }
+    .header-logo {
+        padding-left: 30px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    header nav ul {
+        display: none;
+    }
+    nav:hover ul {
+        display: block;
+        margin-top: 30px;
+        position: relative;
+        top: 40px;
+        background-color: gray;
+        border-radius: 5px;
+        right: 114px;
+        padding: 0;
+        width: 140px;
+    }
+    nav:hover ul li {
+        text-align: center;
+        border-bottom: 2px solid black;
+        padding: 6px;
     }
 }
