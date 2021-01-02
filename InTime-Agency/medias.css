@@ -2,22 +2,32 @@
 
 /*Resolution 1080 x 2340 -> viewport 360 x 780*/
 
-@media all and (max-width: 600px) {
+/*Header section media query*/
+@media all and (min-width:360px) and (max-width: 780px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
-    .menu-responsive {
+    .drop-down-menu-button {
         display: block;
         font-size: 35px;
         padding-right: 30px;
         width: 350px;
         text-align: right;
     }
+    .drop-down-menu-button i{
+        font-size: 50px;
+    }
     .header-logo {
         padding-left: 30px;
+    }
+    .header-logo p{
+        font-size: 50px;
     }
     header {
         display: flex;
         justify-content: space-between;
-        height: 300px;
+       
+    }
+    nav{
+        height: 380px;
     }
     header nav ul {
         display: none;
@@ -37,5 +47,52 @@
         text-align: center;
         border-bottom: 2px solid black;
         padding: 6px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+/* Main section media query */
+
+@media all and (min-width:360px) and (max-width: 780px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+    .background-picture-wrapper{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 380px;
+    left: 330px;
+    z-index: 1;
+    width: 300px;
+    height: 130px;
+    padding: 0 30px 20px 15px;
+    font-size: 20px;
+    }
+    .background-img img{
+        width: 675px;
+    }
+    .company-info{
+        width: 675px;
+        font-size: 30px;
+    }
+    .underline-h2{
+        width: 30%;
+        margin: 0 auto;
+        border-bottom: 5px solid #34B1C4;
+    }
+    button{
+        font-size: 25px;
+    }
+    .service-picture-wrapper{
+        width: 675px;
+    }
+    .service-picture-wrapper h1{
+        font-size: 40px;
+    }
+    .underline-h1{
+        border-bottom: 4px solid #454545;
+    width: 14%;
+    margin: 0 auto;
     }
 }
