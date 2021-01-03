@@ -43,7 +43,7 @@
         border-radius: 5px;
         right: 557px;
         padding: 0;
-        width: 740px;
+        width: 780px;
     }
     nav:hover ul li {
         text-align: left;
@@ -65,7 +65,7 @@
         opacity: 0.7;
         position: absolute;
         top: 380px;
-        left: 390px;
+        left: 435px;
         z-index: 1;
         width: 300px;
         height: 130px;
@@ -73,10 +73,10 @@
         font-size: 20px;
     }
     .background-img img {
-        width: 741px;
+        width: 780px;
     }
     .company-info {
-        width: 741px;
+        width: 780px;
         font-size: 30px;
     }
     .underline-h2 {
@@ -88,14 +88,22 @@
         font-size: 25px;
     }
     .service-picture-wrapper {
-        width: 675px;
+        width: 780px;
     }
     .service-picture-wrapper h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .underline-h1 {
         border-bottom: 4px solid #454545;
         width: 14%;
         margin: 0 auto;
+    }
+    .service-background-img img{
+        width: 100%;
+        position: relative;
+        top: 5px;
+    }
+    .first-service-picture ,.second-service-picture,.third-service-picture{
+        width: 30%;
     }
 }
