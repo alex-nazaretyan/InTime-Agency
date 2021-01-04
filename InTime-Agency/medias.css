@@ -149,6 +149,10 @@
         height: 60px;
         vertical-align: super;
     }
+}
+ /*Footer section media query*/
+    @media all and (min-width:360px) and (max-width: 780px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");{
     footer{
         width: 780px;
     }
